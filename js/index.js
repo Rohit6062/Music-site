@@ -8,15 +8,15 @@ let SongItem = Array.from(document.getElementsByClassName('cards'))
 // Names of songs in playlist 
 let songs = [
     { songName: "Warriyo - Mortals (feat. laura Brehm) [NCS Realese]",filePath: "songs/1.mp3", coverPath: "img/1.jpg" },
-    { songName: "Excuses ",                            filePath: "songs/2.mp3", coverPath: "/img/2.jpg"   },
-    { songName: "Mann Bharryaa 2 - Shershaah",         filePath: "songs/3.mp3", coverPath: "/img/3.jpg"   },
-    { songName: "Different heaven & EH!DE - my heart", filePath: "songs/4.mp3", coverPath: "/img/4.jpg"   },
-    { songName: "Janji-Heroes-Tonight-feat-Johning",   filePath: "songs/5.mp3", coverPath: "/img/5.jpg"   },
-    { songName: "Param Sundari - Mimi",                filePath: "songs/6.mp3", coverPath: "/img/6.jpg"   },
-    { songName: "Oo Bolega Ya Oo Oo Bolega - Pushpa",  filePath: "songs/7.mp3", coverPath: "/img/7.jpg"   },
-    { songName: "Raataan Lambiyan - Shershaah",        filePath: "songs/8.mp3", coverPath: "/img/8.jpg"   },
-    { songName: "Saami Saami Hindi - Pushpa",          filePath: "songs/9.mp3", coverPath: "/img/9.jpg"   },
-    { songName: "Srivalli - Pushpa",                   filePath: "songs/10.mp3",coverPath: "/img/10.jpg" }
+    { songName: "Excuses ",                            filePath: "songs/2.mp3", coverPath: "img/2.jpg"   },
+    { songName: "Mann Bharryaa 2 - Shershaah",         filePath: "songs/3.mp3", coverPath: "img/3.jpg"   },
+    { songName: "Different heaven & EH!DE - my heart", filePath: "songs/4.mp3", coverPath: "img/4.jpg"   },
+    { songName: "Janji-Heroes-Tonight-feat-Johning",   filePath: "songs/5.mp3", coverPath: "img/5.jpg"   },
+    { songName: "Param Sundari - Mimi",                filePath: "songs/6.mp3", coverPath: "img/6.jpg"   },
+    { songName: "Oo Bolega Ya Oo Oo Bolega - Pushpa",  filePath: "songs/7.mp3", coverPath: "img/7.jpg"   },
+    { songName: "Raataan Lambiyan - Shershaah",        filePath: "songs/8.mp3", coverPath: "img/8.jpg"   },
+    { songName: "Saami Saami Hindi - Pushpa",          filePath: "songs/9.mp3", coverPath: "img/9.jpg"   },
+    { songName: "Srivalli - Pushpa",                   filePath: "songs/10.mp3",coverPath: "img/10.jpg" }
 ];
 // let i=0
 // for(i;i<songs.length;i++){
