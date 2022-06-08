@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: rgb(228, 158, 28);
+
+        }
+
+        input {
+            height: 9vh;
+            width: 30vw;
+            margin: 10px;
+        }
+
+        button {
+            justify-content: center;
+            height: 50px;
+            width: 100px;
+            margin-left: 12vw;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" method="post">{% csrf_token %}
+        <h2>Enter Your Details Here : </h2>
+
+        <input type="text" placeholder="Enter your Full Name" name="name"> <br>
+        <input type="email" placeholder="Enter Your Email" name="email"><br>
+        <input type="text" placeholder="What I can do for you??" name="??"><br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body{
+    /* height: 80%; */
+    /* width: 80%; */
+    background-image: url('https://www.howtogeek.com/wp-content/uploads/2021/06/Android-contacts-logo.png?width=1198&trim=1,1&bg-color=000&pad=1,1');
+    /* background-color: orange; */
+    background-size: cover;
+    color: black;
+    
+
+}
+h4{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  color: purple;
+}

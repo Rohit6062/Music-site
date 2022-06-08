@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: rgb(37, 37, 104);
+}
+nav{
+    background-color: rgb(59, 59, 213);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+nav ul li {
+    display: inline-flex;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 0vh 0vh 0vh 5vh;
+
+}
+.img{
+    height: 7vh;
+
+}
+.cards img{
+    height: 25vh;
+    width:  25vw;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    /* border-color: wheat; */
+}
+.cards{
+    margin-top: 10vh;
+    color: aqua;
+    
+}
+.card{
+    display: grid;
+    margin:2vh 20vh;
+    grid-template-columns: auto auto auto;
+    /* justify-content: center; */
+}
+.btn{
+    margin: 0 0 0 2vw;
+    /* position: fixed; */
+}
+footer{
+    background-color: aliceblue;
+    height: 15% ;
+    width: 80% ;
+    /* display: flex; */
+    flex-direction: column-reverse !important;
+    justify-content: center ;
+    /* margin: 0 5% ; */
+    position:fixed ;
+    margin-top: 36.5%;
+    border-radius: 3vh;
+    background-color: khaki;
+}
+footer input{
+    width: 80% ;
+    margin: 0 10%;
+}
+.btn2{
+    width: 10%;
+    justify-content: center;
+    margin: 0 45%;
+}
+footer p{
+    margin:0 10%;
+}
+/* responsive css */
+@media screen and (max-width:500px){
+    .cards img{
+        height: 25vh;
+        width:  80vw;
+        border: 2px solid wheat;
+        border-radius: 7px;
+        /* border-color: wheat; */
+    }
+    .card{
+        display: grid;
+        margin:2vh 10vw;
+        grid-template-columns: auto;
+        /* justify-content: center; */
+    }
+    footer{
+        margin-top: 76vh;
+
+    }
+    .btn2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+}
