@@ -7,7 +7,7 @@ let SongItem = Array.from(document.getElementsByClassName('cards'))
 // 
 // Names of songs in playlist 
 let songs = [
-    { songName: "Warriyo - Mortals (feat. laura Brehm) [NCS Realese]",filePath: "/songs/1.mp3", coverPath: "/img/1.jpg" },
+    { songName: "Warriyo - Mortals (feat. laura Brehm) [NCS Realese]",filePath: "songs/1.mp3", coverPath: "img/1.jpg" },
     { songName: "Excuses ",                            filePath: "songs/2.mp3", coverPath: "/img/2.jpg"   },
     { songName: "Mann Bharryaa 2 - Shershaah",         filePath: "songs/3.mp3", coverPath: "/img/3.jpg"   },
     { songName: "Different heaven & EH!DE - my heart", filePath: "songs/4.mp3", coverPath: "/img/4.jpg"   },
