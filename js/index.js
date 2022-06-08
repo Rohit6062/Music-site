@@ -1,5 +1,5 @@
 let SongIndex = 0;
-let AudioElement = new Audio('/songs/1.mp3')
+let AudioElement = new Audio('songs/1.mp3')
 let MasterPlay = document.getElementById('MasterPlay')
 let ProgressBar = document.getElementById('ProgressBar')
 let MasterSongName = document.getElementById('MasterSongName')
@@ -71,7 +71,7 @@ Array.from(document.getElementsByClassName('SongItemPlay')).forEach((element) =>
 
         e.target.classList.remove('fa-play-circle');
         e.target.classList.add('fa-pause-circle');
-        AudioElement.src = `/songs/${SongIndex + 1}.mp3`;
+        AudioElement.src = `songs/${SongIndex + 1}.mp3`;
         MasterSongName.innerHTML = songs[SongIndex].songName;
         console.log(songs[SongIndex].songName)
         AudioElement.currentTime = 0;
@@ -87,7 +87,7 @@ document.getElementById('Next').addEventListener('click', () => {
     else {
         SongIndex += 1;
     }
-    AudioElement.src = `/songs/${SongIndex + 1}.mp3`;
+    AudioElement.src = `songs/${SongIndex + 1}.mp3`;
     MasterSongName.innerText = songs[SongIndex].songName;
     AudioElement.currentTime = 0;
     AudioElement.play()
@@ -102,7 +102,7 @@ document.getElementById('Previous').addEventListener('click', () => {
     else {
         SongIndex -= 1;
     }
-    AudioElement.src = `/songs/${SongIndex + 1}.mp3`;
+    AudioElement.src = `songs/${SongIndex + 1}.mp3`;
     MasterSongName.innerText = songs[SongIndex].songName;
     AudioElement.currentTime = 0
     AudioElement.play()
